@@ -29,3 +29,11 @@ function eid_to_text(eid, page_type) {
 		'</span>&nbsp;&nbsp;CID <span style="color:#e67e22">' + cal_id + '</span></p></div>';
 	return set_text
 }
+
+jQuery('.rti-eid').css({
+	'-moz-user-select': 'text',
+	'-khtml-user-select': 'text',
+	'-webkit-user-select': 'text',
+	'-ms-user-select': 'text',
+	'user-select': 'text'
+});
